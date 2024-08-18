@@ -1,0 +1,118 @@
+html {
+  font-family: Times New Roman, Georgia, sans-serif;
+  font-size: 70%;
+  display: flex;
+  color: blueviolet;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("./image/wall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  font-size: 4rem;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.image img {
+  display: inline-block;
+  height: 15rem;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+#inp {
+  height: 3rem;
+  width: 10rem;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: 2.5px double blueviolet;
+  font-weight: 600;
+}
+
+#opt {
+  margin-top: 2rem;
+  height: 3rem;
+  width: 15rem;
+  font-size: 2rem;
+  text-align: center;
+  border: 3px solid blueviolet;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+
+#sub {
+  margin-top: 1rem;
+  border: inset mediumvioletred;
+  background: mediumvioletred;
+  border-radius: 3px;
+  font-size: 2.5rem;
+}
+
+#sub:hover {
+  background: blueviolet;
+  border: solid blueviolet;
+}
+
+#output {
+  font-size: 2.8rem;
+  color: whitesmoke;
+  border: double blueviolet;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+  html {
+    font-size: 60%;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  .image img {
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  label {
+    font-size: 2rem;
+  }
+
+  #inp {
+    height: 2.5rem;
+    width: 8rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-width: 2px;
+  }
+
+  #opt {
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+
+  #sub {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+  }
+
+  #output {
+    font-size: 2.4rem;
+  }
+}

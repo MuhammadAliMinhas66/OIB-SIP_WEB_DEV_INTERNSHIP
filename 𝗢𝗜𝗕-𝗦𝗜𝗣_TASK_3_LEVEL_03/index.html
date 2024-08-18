@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./image/start.png">
+    <link rel="stylesheet" href="./style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <form class="container" onsubmit="main(); return false">
+    	<br>
+        <p>Temperature Converter</p>
+        <div><img src="./image/start.png" alt="Start" id="img"></div>
+        <br>
+        <div class="cal">
+        <label>Input temperature:-</label>
+        <input type="number" id="inp">
+        <br>
+        <label>Convert into:-</label> 
+        <select id="opt">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <br>
+        <input type="submit" id="sub" value="GO!">
+        <h1 id="output">Result </h1>
+        </div>
+        
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
